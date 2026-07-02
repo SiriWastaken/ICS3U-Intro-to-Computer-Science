@@ -25,5 +25,7 @@ public class S1EnglishOrFrench {
         else if(countS > countT || countS == countT){
             System.out.println("French");
         }
+
+        input.close();
     }
 }
