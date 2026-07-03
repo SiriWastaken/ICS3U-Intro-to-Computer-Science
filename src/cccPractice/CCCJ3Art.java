@@ -1,3 +1,5 @@
+package cccPractice;
+
 import java.util.Scanner;
 public class CCCJ3Art {
     public static void main(String[] args){

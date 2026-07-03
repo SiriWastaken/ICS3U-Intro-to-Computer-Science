@@ -1,3 +1,4 @@
+package cccPractice;
 /* Author: Sri Ganty
  * Date: July 6, 2026
  * Problem: CCC '11 S1 - English or French

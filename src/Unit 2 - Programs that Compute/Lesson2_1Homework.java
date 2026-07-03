@@ -6,6 +6,8 @@ public class Lesson2_1Homework {
 
         System.out.println((x + y)/3 + 7 & z);
 
+        String result = x > y ?: "Yes"; "No";
+
 
     }    
 }
