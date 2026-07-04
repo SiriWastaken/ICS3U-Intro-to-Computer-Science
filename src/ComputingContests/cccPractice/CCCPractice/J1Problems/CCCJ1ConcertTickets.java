@@ -1,4 +1,4 @@
-package cccPractice.J1Problems;
+package ComputingContests.cccPractice.J1Problems;
 /*
  * Author: Sri Ganty
  * Date: June 29, 2026

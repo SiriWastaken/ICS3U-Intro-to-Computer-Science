@@ -1,4 +1,4 @@
-package cccPractice.S1Problems;
+package ComputingContests.cccPractice.S1Problems;
 
 import java.io.BufferedReader;
 import java.io.IOException;

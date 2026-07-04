@@ -1,4 +1,4 @@
-package cccPractice.J2Problems;
+package ComputingContests.cccPractice.J2Problems;
 /* Name: CCC J2 - Vote Count
 ** Author: Sri Ganty
 ** Date: July 6, 2026
