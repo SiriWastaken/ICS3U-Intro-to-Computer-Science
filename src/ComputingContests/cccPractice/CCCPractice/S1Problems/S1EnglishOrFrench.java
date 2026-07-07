@@ -1,4 +1,3 @@
-package ComputingContests.cccPractice.S1Problems;
 /* Author: Sri Ganty
  * Date: Monday, July 6, 2026
  * Problem: CCC '11 S1 - English or French
