@@ -1,3 +1,13 @@
 {
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx64G -Xms100m -Xlog:disable"
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx64G -Xms100m -Xlog:disable",
+    "java.project.sourcePaths": [
+        "src/Unit 5 - Arrays",
+        "src/Unit 4 - Repetition",
+        "src/Unit 3 - Decision Making",
+        "src/Unit 2 - Programs that Compute",
+        "src/Unit 1 - Introductory Java",
+        "src/FinalProject",
+        "src/ComputingContests/cccPractice/MiscCompetitions",
+        "src/ComputingContests/cccPractice/CCCPractice/J3Problems"
+    ]
 }

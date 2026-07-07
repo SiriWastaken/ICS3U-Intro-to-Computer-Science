@@ -6,23 +6,29 @@ public class J3ColdCompress {
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 
-        StringBuilder outputString = new StringBuilder();
-
         int numOfLines = Integer.parseInt(input.readLine());
         char[] currentLine = new char[80];
 
-        for(int i = 0; i < numOfLines; i++){
-            currentLine = input.readLine().toCharArray();
-        }
+        for (int i = 0; i < numOfLines; i++) {
+            String line = input.readLine();
 
-        for(int j = 0; j < currentLine.length; j++){
-            
-        }        
+            StringBuilder outputString = new StringBuilder();
 
-        // Count the number of characters in a row, store it, and add that as well as the currentChar to the StringBuilder
+            char currentChar = line.charAt(0);
+            int count = 1;
 
-        // Once all of those lines of input have been done, print out the StringBuiler 
+            for (int j = 1; j < line.length(); j++) {
+                if (line.charAt(j) == currentChar) {
+                    count++;
+                } else {
+                    outputString.append(count).append(" ").append(currentChar).append(" ");
+                    currentChar = line.charAt(j);
+                    count = 1;
+                }
+            }            
+            outputString.append(count).append(" ").append(currentChar);
 
+            System.out.println(outputString);
     }
-    
+}
 }
